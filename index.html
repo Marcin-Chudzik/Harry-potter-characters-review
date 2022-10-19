@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" media="(min-width: 768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(min-width: 1024px)" href="css/laptop.css">
+    <link rel="stylesheet" media="(min-width: 1440px)" href="css/desktop.css">
+    <link rel="import" href="./favorites.html">
+    <title>Harry Potter</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <div class="nav__dropdown-menu">
+          <button type="button" class="dropdown-toggler" id="dropdownBtn">
+            <img src="./img/menu.png" alt="menu">
+          </button>
+
+          <div class="nav__buttons" id="navButtons">
+            <button class="btn dropdown-item selected" id="allStudents">All
+              students</button>
+            <a href="./favorites.html">
+              <button class="btn dropdown-item">Favorites</button>
+            </a>
+            <button class="btn dropdown-item" data-house="Gryffindor">Gryffindor</button>
+            <button class="btn dropdown-item" data-house="Slytherin">Slytherin</button>
+            <button class="btn dropdown-item" data-house="Hufflepuff">Hufflepuff</button>
+            <button class="btn dropdown-item" data-house="Ravenclaw">Ravenclaw</button>
+          </div>
+        </div>
+
+        <span class="go-to-top">
+          <img class="btn--icon" src="./img/logo.png" alt="logo"
+            id="scrollToTop">
+          <p id="spell" class="spell">Ascendio!</p>
+        </span>
+      </div>
+    </nav>
+
+    <main>
+      <span class="table__title" id="tableTitle"></span>
+
+      <div class="table__sorting-buttons">
+        <span>
+          <button data-sort-type="asc" data-row="data-name" class="btn">&#8593;</button>
+          <button data-sort-type="desc" data-row="data-name" class="btn">&#8595;</button>
+        </span>
+        <span>
+          <button data-sort-type="asc" data-row="data-date-of-birth" class="btn">&#8593;</button>
+          <button data-sort-type="desc" data-row="data-date-of-birth" class="btn">&#8595;</button>
+        </span>
+        <span>
+          <button data-sort-type="asc" data-row="data-character-house" class="btn">&#8593;</button>
+          <button data-sort-type="desc" data-row="data-character-house" class="btn">&#8595;</button>
+        </span>
+      </div>
+
+      <table id="charactersPreview" class="characters-preview">
+      </table>
+
+      <div id="characterDetails" class="character-details">
+        <span>
+          <span id="addToFavorite" class="btn">&#11088;</span>
+          <span id="characterDetailsCloseBtn" class="character-details__close">&times;</span>
+        </span>
+        <div id="characterDetailsContent" class="character-details__content">
+        </div>
+      </div>
+
+    </main>
+
+    <script type="module" src="src/app.js"></script>
+  </body>
+
+
+
+</html>

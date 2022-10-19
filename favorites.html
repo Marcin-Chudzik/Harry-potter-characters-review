@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" media="(min-width: 768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(min-width: 1024px)" href="css/laptop.css">
+    <link rel="stylesheet" media="(min-width: 1440px)" href="css/desktop.css">
+    <title>Harry Potter</title>
+  </head>
+
+  <body>
+
+    <section class="container">
+      <span class="section__buttons">
+        <a href="./index.html" class="btn--back">&#8592;</a>
+        <div class="display-mode">
+          <h2>Display by</h2>
+          <span class="display-mode__buttons">
+            <button class="btn selected" data-display-mode="1">1</button>
+            <button class="btn" data-display-mode="3">3</button>
+            <button class="btn" data-display-mode="5">5</button>    
+          </span>
+        </div>
+      </span>
+      <div id="favoritesList" class="favorites-list favorites-list--column">
+      </div>
+    </section>
+
+    <script type="module" src="src/favorites.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,57 @@
+nav .container {
+    width: 95%;
+    margin-top: 15px;
+}
+
+.dropdown-item {
+    width: 120px;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+.btn--icon {
+    width: 70px;
+}
+
+.go-to-top {
+    width: 140px;
+}
+
+table td {
+    font-size: 18px;
+}
+
+.table__title {
+    font-size: 35px;
+}
+
+.table__headers th {
+    font-size: 18px;
+}
+
+.table__sorting-buttons {
+    width: 43%;
+    margin: 5% 0 2% 4%;
+}    
+
+.table__sorting-buttons .btn {
+    padding: 5px 15px;
+    font-size: 30px;
+}
+
+.favorites-list--row-3 .fav-card > img {
+    width: 230px;
+}
+
+.favorites-list--row-3 .fav-card {
+    height: 500px;
+}
+
+.favorites-list--row-5 .fav-card > img {
+    width: 130px;
+}
+
+.favorites-list--row-5 .fav-card {
+    height: 300px;
+    font-size: 22px;
+}    

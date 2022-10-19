@@ -1,0 +1,105 @@
+nav .container {
+    margin-top: 10px;
+}
+
+.nav__buttons {
+    width: 85%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: unset;
+}
+
+.dropdown-toggler {
+    display: none;
+}
+
+.dropdown-item {
+    width: 100px;
+    padding: 4px 8px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.btn--icon {
+    width: 60px;
+    right: 0;
+}
+
+.go-to-top {
+    width: 120px;
+}
+
+table td {
+    font-size: 14px;
+}
+
+.table__title {
+    font-size: 30px;
+}
+
+.table__headers th {
+    font-size: 18px;
+}
+
+.table__sorting-buttons .btn {
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.character-details {
+    width: 50%;
+    margin: 50px 0;
+    left: 25%;
+}
+
+.fav-card {
+    width: auto;
+    height: 550px;
+    font-size: 30px;
+}
+
+.fav-card > img {
+    width: 300px;
+    height: auto;
+}
+
+.fav-card .btn {
+    font-size: 20px;
+}
+
+.favorites-list--row-3 .fav-card {
+    width: 32%;
+    height: 450px;
+}
+
+.favorites-list--row-3 .fav-card > img {
+    width: 200px;
+    height: auto;
+}
+
+.favorites-list--row-5 .fav-card {
+    width: 20%;
+    height: 240px;
+    font-size: 20px;
+}
+
+.favorites-list--row-5 .fav-card > img {
+    width: 100px;
+    height: auto;
+}
+
+.favorites-list--row-5 .fav-card .btn {
+    padding: 2px 4px;
+}
+
+.btn--back {
+    font-size: 50px;
+}
+
+.display-mode__buttons .btn {
+    padding: 10px 20px;
+    font-size: 20px;
+}
